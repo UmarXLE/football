@@ -1,0 +1,43 @@
+.item {
+    padding: 20px;
+    color: white;
+
+}
+
+.item h2 {
+    font-size: 22px;
+    margin-top: 20px;
+}
+
+.item p {
+    margin: 10px 0;
+}
+
+.item img {
+    border-radius: 5px;
+    width: 80%;
+    height: 50%;
+}
+
+.bg {
+    /* background-color:rgba(31, 29, 29, 0.9); */
+    height: 100vh;
+}
+
+.editForm {
+    width: 50%;
+    margin: 0 auto;
+    display: flex;
+    height: 100vh;
+    flex-direction: column;
+    justify-content: center;
+    align-content: center;
+
+
+
+}
+
+.inputStyle {
+    border: 1px solid white;
+    
+}

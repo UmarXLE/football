@@ -1,0 +1,28 @@
+.form {
+    width: 50%;
+    height: 100vh;
+    justify-content:center;
+    margin: 0 auto;
+    display: flex;
+    flex-direction: column;
+    z-index: 10;;
+}
+
+.createWrapper {
+    background: url("../../images/bg-2.jpg")no-repeat center;
+    background-size: cover; 
+    /* filter: blur(3px); */
+
+    /* background-color: aqua; */
+    color: white;
+}
+.title {
+    color: white;
+    font-size: 25px;
+    font-weight: 700;
+    margin-bottom: 10px;
+}
+
+.createWrapper form input:first-child{
+    margin-bottom: 10px;
+}

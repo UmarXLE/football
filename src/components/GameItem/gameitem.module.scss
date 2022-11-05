@@ -1,0 +1,41 @@
+.item {
+    width: 1fr;
+    padding: 20px;
+    /* background-color: aqua; */
+    /* border: 1px solid #37003c; */
+    border-radius:  8px;
+    margin: 10px;
+    color: white;
+    background: #333333;
+    box-shadow: 0 0 10px 1px rgba(0, 0, 0, 0.4);
+
+}
+.item:hover{
+    transform: scale(1.1) ;
+    transition: 0.7s ease all;
+    margin: 25px;
+    z-index: 100;
+    color: white;
+    background-color:rgba(6, 6, 6, 0.9); 
+    img{
+        transform: scale(1.1) ;
+    }
+}
+ 
+.text {
+    font-weight: 500;
+    margin: 3px;
+}
+
+.link {
+    text-decoration: none;
+    font-weight: 500;
+    margin-left: 3px;
+    &:hover{
+        text-decoration: underline;
+    }
+}
+
+.cardItem {
+    margin: 15px;
+}

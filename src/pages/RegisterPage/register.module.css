@@ -1,0 +1,26 @@
+.form {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    height: 100vh;
+    margin: 0 auto;
+    width: 50%;
+}
+
+form input:first-child{
+    margin-bottom: 10px;
+}
+
+.registerWrapper {
+    background: url('../../images/bg-4.png')center no-repeat;
+    background-size: cover;
+}
+
+
+.title {
+    font-size: 25px;
+    font-weight: 700;
+    color: black;
+    margin-bottom: 10px;
+    
+}
